@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Playfair+Display&display=swap');
+
+.contenido {
+    font-family: Inter, sans-serif;
+}
+
+.column p h1{
+    font-family: Roboto, sans-serif;
+}
+
+.column-2 p{
+    font-family: Caprasimo, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: 800;
+    font-size: 40px;
+    color: #447C5F;
+    text-transform: uppercase;
+}
+
+.navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    color: #49AF4A;
+    display: block;
+    text-transform: uppercase;
+}
+
+.contenido p{
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: justify;
+    font-size: 20px;
+}
+.contenido h1{
+    margin-top: 50px;
+    text-align: center;
+    font-family: Caprasimo;
+}
+
+.boton{
+    text-align: center;
+    font-size: 25px;
+    font-family: Caprasimo;
+}
+
+.column {
+    float: left;
+    width: 65%;
+    margin-top: 20px;
+    padding-left: 100px;
+}
+
+.column p{
+    font-size: 20px;
+    text-align: justify;
+    font-family: Roboto;
+}
+
+.column h1{
+    margin-top: 75px;
+    text-align: center;
+    font-family: Caprasimo;
+}
+
+.column li{
+    font-size: 25px;
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.column-2{
+    float: right;
+    width: 30%;
+    height: fit-content;
+    margin-right: 10px;
+    margin-top: 50px;
+    padding-right: 100px;
+}
+
+.column-2{
+    text-align: center;
+}
+
+.column-2 p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.column-2 img{
+    margin-top: 50px;
+    width: 80%;
+    height: 0%;
+}
+
+
+img {
+    text-align: center;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+img{
+  max-height: 100%;
+  height: auto;
+}
+
+header{
+  max-height: 100%;
+  height: auto;
+}
+
+.footer{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-txt{
+    padding-right: 500px;
+}
+
+.footer-txt p{
+    font-size: 16px;
+    color: #656875;
+    margin-top: 25px;
+}
+
+.carousel{
+    margin-top: 100px;
+}
